@@ -1,0 +1,13 @@
+<circuit version="1.1.0-SR2" rev="260312" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-136,-24" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-3" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="MCU" CircId="mega32-4" mainComp="false" Show_id="true" Show_Val="false" Pos="-72,-96" rotation="0" hflip="1" vflip="1" label="mega32-4" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="8 MHz" Program="../../Task_2/release/firmware.hex" Auto_Load="false" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Led" CircId="Led-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-128,-64" rotation="-180" hflip="1" vflip="1" label="Led-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Fixed Voltage-3-outnod" endpinid="mega32-4-RST" pointList="-120,-24,-80,-24" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="mega32-4-PORTB3" endpinid="Led-6-lPin" pointList="-80,-64,-112,-64" />
+
+</circuit>
