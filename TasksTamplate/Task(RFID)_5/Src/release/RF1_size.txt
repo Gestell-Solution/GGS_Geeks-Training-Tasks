@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   7610	    124	    153	   7887	   1ecf	C:\LayerdArch_Atmega32\release\RF1.elf
