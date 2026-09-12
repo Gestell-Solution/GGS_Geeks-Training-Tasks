@@ -1,0 +1,700 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_umulhisi3.o)
+                              D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LM35\LM35_Program.c.o (__umulhisi3)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+                              D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o (exit)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_tablejump2.o)
+                              D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\DIO\DIO_Program.c.o (__tablejump2__)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+                              D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LCD\LCD_Programme.c.o (__do_copy_data)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+                              D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LED\LED_Programe.c.o (__do_clear_bss)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+                              D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LM35\LM35_Program.c.o (__fixunssfsi)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                              D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LM35\LM35_Program.c.o (__floatunsisf)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                              D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o) (__fp_splitA)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                              D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o) (__fp_zero)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                              D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LM35\LM35_Program.c.o (__mulsf3)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                              D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3.o) (__mulsf3x)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                              D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o) (__fp_inf)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                              D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o) (__fp_nan)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                              D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o) (__fp_pscA)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                              D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o) (__fp_pscB)
+D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                              D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3.o) (__fp_round)
+
+There are no discarded input sections
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800100         0x00001000         rw!x
+eeprom           0x00810000         0x00001000         rw!x
+fuse             0x00820000         0x00000003         rw!x
+lock             0x00830000         0x00000400         rw!x
+signature        0x00840000         0x00000400         rw!x
+user_signatures  0x00850000         0x00000400         rw!x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+LOAD D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LCD\LCD_Programme.c.o
+LOAD D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LED\LED_Programe.c.o
+LOAD D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LM35\LM35_Program.c.o
+LOAD D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\main.c.o
+LOAD D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\ADC\ADC_Program.c.o
+LOAD D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\DIO\DIO_Program.c.o
+LOAD D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\EXIT\EXIT_Program.c.o
+LOAD D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\GIE\GIE_Proram.c.o
+LOAD D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\TIMER1\TIMER1_Program.c.o
+START GROUP
+LOAD D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a
+LOAD D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a
+LOAD D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libc.a
+LOAD D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libatmega128.a
+END GROUP
+                [0x00000000]                      __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00020000]                      __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00800100]                      __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800100
+                [0x00001000]                      __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xff00
+                [0x00001000]                      __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                      __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                        __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                        __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                        __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1056
+ *(.vectors)
+ .vectors       0x00000000       0x8c D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x0000008c                        . = ALIGN (0x2)
+                0x0000008c                        __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000008c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000008c                        __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem.*)
+                0x0000008c                        . = ALIGN (0x2)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000008c                        __ctors_start = .
+ *(.ctors)
+                0x0000008c                        __ctors_end = .
+                0x0000008c                        __dtors_start = .
+ *(.dtors)
+                0x0000008c                        __dtors_end = .
+ SORT_BY_NAME(*)(.ctors)
+ SORT_BY_NAME(*)(.dtors)
+ *(.init0)
+ .init0         0x0000008c        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+                0x0000008c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000008c        0xc D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000098       0x1a D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+                0x00000098                __do_copy_data
+ .init4         0x000000b2       0x10 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+                0x000000b2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000c2        0x8 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+ *(.init9)
+ *(.text)
+ .text          0x000000ca        0x4 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+                0x000000ca                __vector_22
+                0x000000ca                __vector_28
+                0x000000ca                __vector_1
+                0x000000ca                __vector_32
+                0x000000ca                __vector_34
+                0x000000ca                __vector_24
+                0x000000ca                __vector_12
+                0x000000ca                __bad_interrupt
+                0x000000ca                __vector_6
+                0x000000ca                __vector_31
+                0x000000ca                __vector_3
+                0x000000ca                __vector_23
+                0x000000ca                __vector_30
+                0x000000ca                __vector_25
+                0x000000ca                __vector_11
+                0x000000ca                __vector_13
+                0x000000ca                __vector_17
+                0x000000ca                __vector_19
+                0x000000ca                __vector_7
+                0x000000ca                __vector_27
+                0x000000ca                __vector_5
+                0x000000ca                __vector_33
+                0x000000ca                __vector_4
+                0x000000ca                __vector_9
+                0x000000ca                __vector_2
+                0x000000ca                __vector_21
+                0x000000ca                __vector_15
+                0x000000ca                __vector_29
+                0x000000ca                __vector_8
+                0x000000ca                __vector_26
+                0x000000ca                __vector_14
+                0x000000ca                __vector_10
+                0x000000ca                __vector_16
+                0x000000ca                __vector_18
+                0x000000ca                __vector_20
+ .text          0x000000ce      0x254 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LCD\LCD_Programme.c.o
+                0x0000016a                LCD_WriteData
+                0x00000174                LCD_Instruction
+                0x0000017e                LCD_Init
+                0x00000206                LCD_WriteString
+                0x00000236                LCD_Go_To_XY
+                0x00000254                LCD_Number
+ .text          0x00000322       0x58 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LED\LED_Programe.c.o
+                0x00000322                Led_Init
+                0x00000342                Led_on
+                0x0000035c                Led_off
+                0x00000376                Led_Toggle
+ .text          0x0000037a       0x7e D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LM35\LM35_Program.c.o
+                0x0000037a                LM35_Init
+                0x000003c0                LM35_Read
+ .text          0x000003f8        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\main.c.o
+ .text          0x000003f8       0xa0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\ADC\ADC_Program.c.o
+                0x000003f8                ADC_Init
+                0x00000476                ADC_ReadChannelPolling
+                0x0000048c                ADC_StartConvserionInterrupt
+ .text          0x00000498      0x3f6 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\DIO\DIO_Program.c.o
+                0x00000498                DIO_InitPin
+                0x000005da                DIO_InitGroup
+                0x0000060a                DIO_WritePin
+                0x0000074c                DIO_WriteGroup
+                0x0000077c                DIO_ReadPin
+                0x000007d0                DIO_ReadGroup
+                0x0000082a                DIO_TogglePin
+ .text          0x0000088e      0x30a D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\EXIT\EXIT_Program.c.o
+                0x0000088e                EXTI_Init
+                0x00000b14                EXTI_Enable
+                0x00000b56                EXTI_Disable
+ .text          0x00000b98       0x10 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\GIE\GIE_Proram.c.o
+                0x00000b98                GIE_Enable
+                0x00000ba0                GIE_Disable
+ .text          0x00000ba8        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\TIMER1\TIMER1_Program.c.o
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_umulhisi3.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_tablejump2.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .text          0x00000ba8        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                0x00000ba8                        . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x00000ba8      0x1a2 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\main.c.o
+                0x00000ba8                main
+ .text.libgcc.mul
+                0x00000d4a       0x1e D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_umulhisi3.o)
+                0x00000d4a                __umulhisi3
+ .text.libgcc.div
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000d68        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc   0x00000d68       0x12 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_tablejump2.o)
+                0x00000d68                __tablejump2__
+ .text.libgcc.prologue
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000d7a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+ .text.avr-libc.fplib
+                0x00000d7a       0x5e D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+                0x00000d7a                __fixunssfsi
+ .text.avr-libc.fplib
+                0x00000dd8       0x7a D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                0x00000dd8                __floatunsisf
+                0x00000ddc                __floatsisf
+ .text.avr-libc.fplib
+                0x00000e52       0x44 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                0x00000e52                __fp_split3
+                0x00000e62                __fp_splitA
+ .text.avr-libc.fplib
+                0x00000e96        0xe D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                0x00000e96                __fp_zero
+                0x00000e98                __fp_szero
+ .text.avr-libc.fplib
+                0x00000ea4        0x8 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+                0x00000ea4                __mulsf3
+ .text.avr-libc.fplib
+                0x00000eac       0xd2 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+                0x00000eca                __mulsf3x
+                0x00000ed0                __mulsf3_pse
+ .text.avr-libc.fplib
+                0x00000f7e        0xc D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                0x00000f7e                __fp_inf
+ .text.avr-libc.fplib
+                0x00000f8a        0x6 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                0x00000f8a                __fp_nan
+ .text.avr-libc.fplib
+                0x00000f90        0xe D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                0x00000f90                __fp_pscA
+ .text.avr-libc.fplib
+                0x00000f9e        0xe D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                0x00000f9e                __fp_pscB
+ .text.avr-libc.fplib
+                0x00000fac       0x22 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                0x00000fac                __fp_round
+                0x00000fce                        . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000fce        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+                0x00000fce                _exit
+                0x00000fce                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000fce        0x4 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+ *(.hightext)
+ *(.hightext*)
+ *(.progmemx.*)
+                0x00000fd2                        . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ .jumptables.gcc.DIO_InitPin
+                0x00000fd2       0x1c D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\DIO\DIO_Program.c.o
+ .jumptables.gcc.DIO_InitGroup
+                0x00000fee        0xe D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\DIO\DIO_Program.c.o
+ .jumptables.gcc.DIO_WritePin
+                0x00000ffc       0x1c D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\DIO\DIO_Program.c.o
+ .jumptables.gcc.DIO_WriteGroup
+                0x00001018        0xe D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\DIO\DIO_Program.c.o
+ .jumptables.gcc.EXTI_Init
+                0x00001026       0x10 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\EXIT\EXIT_Program.c.o
+ .jumptables.gcc.EXTI_Enable
+                0x00001036       0x10 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\EXIT\EXIT_Program.c.o
+ .jumptables.gcc.EXTI_Disable
+                0x00001046       0x10 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\EXIT\EXIT_Program.c.o
+                0x00001056                        _etext = .
+
+.data           0x00800100       0x1a load address 0x00001056
+                0x00800100                        PROVIDE (__data_start = .)
+ *(.data)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+ .data          0x00800100        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LCD\LCD_Programme.c.o
+ .data          0x00800100        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LED\LED_Programe.c.o
+ .data          0x00800100        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LM35\LM35_Program.c.o
+ .data          0x00800100        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\main.c.o
+ .data          0x00800100        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\ADC\ADC_Program.c.o
+ .data          0x00800100        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\DIO\DIO_Program.c.o
+ .data          0x00800100        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\EXIT\EXIT_Program.c.o
+ .data          0x00800100        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\GIE\GIE_Proram.c.o
+ .data          0x00800100        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\TIMER1\TIMER1_Program.c.o
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_umulhisi3.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_tablejump2.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .data          0x00800100        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x00800100        0x5 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LM35\LM35_Program.c.o
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800105       0x14 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LCD\LCD_Programme.c.o
+                                  0xd (size before relaxing)
+ .rodata.str1.1
+                0x00800119        0x7 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\main.c.o
+ *(.gnu.linkonce.r*)
+                0x00800120                        . = ALIGN (0x2)
+ *fill*         0x00800119        0x1 
+                0x0080011a                        _edata = .
+                0x0080011a                        PROVIDE (__data_end = .)
+
+.bss            0x0080011a        0x1
+                0x0080011a                        PROVIDE (__bss_start = .)
+ *(.bss)
+ .bss           0x0080011a        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+ .bss           0x0080011a        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LCD\LCD_Programme.c.o
+ .bss           0x0080011a        0x1 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LED\LED_Programe.c.o
+ .bss           0x0080011b        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LM35\LM35_Program.c.o
+ .bss           0x0080011b        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\main.c.o
+ .bss           0x0080011b        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\ADC\ADC_Program.c.o
+ .bss           0x0080011b        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\DIO\DIO_Program.c.o
+ .bss           0x0080011b        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\EXIT\EXIT_Program.c.o
+ .bss           0x0080011b        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\GIE\GIE_Proram.c.o
+ .bss           0x0080011b        0x0 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\TIMER1\TIMER1_Program.c.o
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_umulhisi3.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_exit.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_tablejump2.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_copy_data.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fixunssfsi.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(mulsf3x.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .bss           0x0080011b        0x0 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ *(.bss*)
+ *(COMMON)
+                0x0080011b                        PROVIDE (__bss_end = .)
+                0x00001056                        __data_load_start = LOADADDR (.data)
+                0x00001070                        __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080011b        0x0
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit .noinit.* .gnu.linkonce.n.*)
+                [!provide]                        PROVIDE (__noinit_end = .)
+                0x0080011b                        _end = .
+                [!provide]                        PROVIDE (__heap_start = .)
+                0x00000000                        __flmap_init_label = DEFINED (__flmap_noinit_start)?__flmap_noinit_start:0x0
+                0x00000000                        __flmap = DEFINED (__flmap)?__flmap:0x0
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                        __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LCD\LCD_Programme.c.o
+                                 0x30 (size before relaxing)
+ .comment       0x0000002f       0x30 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LED\LED_Programe.c.o
+ .comment       0x0000002f       0x30 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\HAL\LM35\LM35_Program.c.o
+ .comment       0x0000002f       0x30 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\main.c.o
+ .comment       0x0000002f       0x30 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\ADC\ADC_Program.c.o
+ .comment       0x0000002f       0x30 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\DIO\DIO_Program.c.o
+ .comment       0x0000002f       0x30 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\EXIT\EXIT_Program.c.o
+ .comment       0x0000002f       0x30 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\GIE\GIE_Proram.c.o
+ .comment       0x0000002f       0x30 D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\MCAL\TIMER1\TIMER1_Program.c.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x780
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x780 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+
+.debug_abbrev   0x00000000      0x718
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x718 D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+
+.debug_line     0x00000000       0x1d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1d D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x27d
+ *(.debug_str)
+ .debug_str     0x00000000      0x27d D:/programfile/avr8-gnu-toolchain-4.0.0.52-win32.any.x86_64/avr8-gnu-toolchain-win32_x86_64/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr51/crtatmega128.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+ *(.debug_line_str)
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+ *(.debug_rnglists)
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+OUTPUT(D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\ADC.elf elf32-avr)
+LOAD linker stubs

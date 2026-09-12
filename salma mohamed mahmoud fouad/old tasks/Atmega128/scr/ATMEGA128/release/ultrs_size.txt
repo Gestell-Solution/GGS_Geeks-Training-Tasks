@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   7318	     20	     37	   7375	   1ccf	D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\ultrs.elf

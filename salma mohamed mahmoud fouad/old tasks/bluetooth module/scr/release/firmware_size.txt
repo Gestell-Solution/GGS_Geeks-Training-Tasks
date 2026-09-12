@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2102	     20	     18	   2140	    85c	D:\HTI\NTI\EmbeddedTasks\bluetooth module\scr\release\firmware.elf

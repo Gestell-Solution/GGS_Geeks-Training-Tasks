@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1490	      0	      5	   1495	    5d7	D:\HTI\NTI\EmbeddedTasks\task_for_day_8_19\task2\release\firmware.elf

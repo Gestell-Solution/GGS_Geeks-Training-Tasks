@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   4182	     26	      1	   4209	   1071	D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\ADC.elf

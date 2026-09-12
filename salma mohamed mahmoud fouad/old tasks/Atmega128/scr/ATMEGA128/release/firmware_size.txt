@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2434	      0	      2	   2436	    984	D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\firmware.elf

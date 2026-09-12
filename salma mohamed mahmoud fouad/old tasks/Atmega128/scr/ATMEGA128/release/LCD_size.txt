@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   3840	     26	      1	   3867	    f1b	D:\HTI\NTI\EmbeddedTasks\Atmega128\scr\ATMEGA128\release\LCD.elf

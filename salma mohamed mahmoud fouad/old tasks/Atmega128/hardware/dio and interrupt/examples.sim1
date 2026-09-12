@@ -1,0 +1,37 @@
+<circuit version="1.1.0-SR2" rev="260312" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Led" CircId="Led-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,88" rotation="0" hflip="1" vflip="1" label="Led-1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-424,300" rotation="90" hflip="1" vflip="1" label="Led-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Red" Grounded="true" Threshold="1.8 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-464,304" rotation="-90" hflip="1" vflip="1" label="Fixed Voltage-3" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="MCU" CircId="mega128-4" mainComp="false" Show_id="true" Show_Val="false" Pos="-504,116" rotation="0" hflip="1" vflip="1" label="mega128-4" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="8 MHz" Program="../../../HTI/NTI/EmbeddedTasks/Atmega128/scr/ATMEGA128/release/firmware.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" varList="DDRA,DDRD,PORTA,PORTD,SREG,EICRA,EICRB,EIFR,EIMSK,ETIFR,ETIMSK" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Switch" CircId="Switch-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-284,164" rotation="0" hflip="1" vflip="1" label="Switch-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1" />
+
+<item itemtype="Ground" CircId="Ground-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-320,224" rotation="0" hflip="1" vflip="1" label="Ground-7" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-248,132" rotation="90" hflip="1" vflip="1" label="Fixed Voltage-8" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Resistor" CircId="Resistor-9" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-320,188" rotation="90" hflip="1" vflip="1" label="Resistor-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Node" CircId="Node-10" mainComp="false" Pos="-320,164" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="mega128-4-RST" endpinid="Fixed Voltage-3-outnod" pointList="-464,276,-464,288" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Led-1-lPin" endpinid="mega128-4-PORTA0" pointList="-380,88,-384,88,-384,108" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Resistor-9-lPin" endpinid="Node-10-1" pointList="-320,172,-320,164" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="Switch-6-pinP0" endpinid="Node-10-0" pointList="-300,164,-320,164" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Node-10-2" endpinid="mega128-4-PORTA7" pointList="-320,164,-344,164" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Ground-7-Gnd" endpinid="Resistor-9-rPin" pointList="-320,208,-320,204" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Fixed Voltage-8-outnod" endpinid="Switch-6-switch0pinN" pointList="-248,148,-248,164,-268,164" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="mega128-4-PORTD0" endpinid="Led-2-lPin" pointList="-424,276,-424,284" />
+
+</circuit>
