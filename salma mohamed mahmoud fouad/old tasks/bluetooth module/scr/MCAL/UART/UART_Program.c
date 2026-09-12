@@ -1,5 +1,18 @@
 #include "UART_Interface.h"
 
+/**
+ * @file      UART_Program.c
+ * @author    salma mohamed mahmoud fouad(salmafouadothman@gmail.com)
+ * @brief     file to init and do other command using uart
+ * @details   this driver contain uart init is used in initialization 
+ *            and uart sending for sending a charcter a string a buffer and 
+ *            another function to receive them we also have interrupt 
+ *            that we can enable or disable we can also enable tx or rx only or enable 
+ *            both of them .
+ * @version   0.1
+ * @date      2026-09-12
+ * @copyright Copyright (c) 2026
+ */
 
 static void (*PF_UartRX)(uint16_t)= Null; 
 static void (*PF_UartTX)(void)= Null; 
@@ -230,14 +243,12 @@ void UART_SendBufferPolling(uint8_t * Buffer , uint16_t Length)
     {
         UART_SendBytePolling(Buffer[LocalCount]);
     }
-}//Raw Data 
+}
 
 
 
-/* Driver Control API */
 void UART_EnableRX()
 {
-    //UCSRB
     SetBit(UCSRB_Reg,Uart_RXEN);
 }
 void UART_EnableTX()
@@ -255,39 +266,32 @@ void UART_DisableTX()
 
 
 
-/*Interrupt API */
 void UART_SendByteInterrupt(uint16_t Data)
 {
 
 }
 void UART_EnableRXInterrupt()
 {
-    // UCSRB
     SetBit(UCSRB_Reg,Uart_RXCIE);
 }
 void UART_EnableTXInterrupt()
 {
-    // UCSRB
     SetBit(UCSRB_Reg,Uart_TXCIE);
 }
 void UART_EnableREInterrupt()
 {
-    // UCSRB 
     SetBit(UCSRB_Reg,Uart_UDRIE); 
 }
 void UART_DisableRXInterrupt()
 {
-    // UCSRB 
     ClearBit(UCSRB_Reg,Uart_RXCIE);
 }
 void UART_DisableTXInterrupt()
 {
-    // UCSRB 
     ClearBit(UCSRB_Reg,Uart_TXCIE);
 }
 void UART_DisableREInterrupt()
 {
-    // UCSRB 
     ClearBit(UCSRB_Reg,Uart_UDRIE);
 }
 
@@ -316,22 +320,15 @@ void UART_SetRECallback(void (*PF)(void))
 }
 
 
-/* RX Complete */
 void __vector_13(void)
 {
     if(PF_UartRX!=Null)
     {
        uint16_t LocalData = 0 ;
-    //    Check on the Size of character 
-            // if Size less than 9  -> LocalData = UDR_Reg;
-            // if Size  == 9
-                // Read the RXB8 Update in LocalData 
-                // Update the UDR 
             PF_UartRX(LocalData);
     }
 
 }
-/* TX Complete */
 void __vector_15(void)
 {
     if(PF_UartTX!=Null)
@@ -339,7 +336,6 @@ void __vector_15(void)
         PF_UartTX();
     }
 }
-
 void __vector_14(void)
 {
     if(PF_UartRE!=Null)

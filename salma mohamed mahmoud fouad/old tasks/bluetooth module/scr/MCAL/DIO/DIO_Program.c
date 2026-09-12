@@ -1,7 +1,18 @@
+/**
+ * @file DIO_Program.c
+ * @author salma mohamed mahmoud fouad(salmafouadothman@gmail.com)
+ * @brief used to control group and pins 
+ * @details here we can control the state of pin as input to output 
+ *          and give it high or low we read the pin we toggle it and
+ *          we do the same thing for group
+ * @version 0.1
+ * @date 2026-09-12
+ * @copyright Copyright (c) 2026
+ * 
+ */
 #include "DIO_Interface.h"
 
 
-// select direction  initpin 
 void DIO_InitPin(uint8_t GroupName,uint8_t PinNumber,uint8_t DirState)
 {
     if((GroupName>=Dio_GroupA && GroupName<=Dio_GroupD)&& 
@@ -31,11 +42,9 @@ void DIO_InitPin(uint8_t GroupName,uint8_t PinNumber,uint8_t DirState)
     
 }
 
-// select direction  initDio_Group 
 void DIO_InitGroup(uint8_t GroupName,uint8_t DirState)
 {
-    // if(Dio_GroupName>=Dio_GroupA&&Dio_GroupName<=Dio_GroupD)
-    // {
+    
         switch(GroupName)
         {
             case Dio_GroupA: DDRA_Reg = DirState;break;
@@ -47,7 +56,6 @@ void DIO_InitGroup(uint8_t GroupName,uint8_t DirState)
     // }
 }
 
-// outputvalue    writepin  
 void DIO_WritePin(uint8_t GroupName,uint8_t PinNumber,uint8_t OutputValue)
 {
     if(GroupName<=Dio_GroupD && PinNumber<=Dio_Pin7)
@@ -75,7 +83,6 @@ void DIO_WritePin(uint8_t GroupName,uint8_t PinNumber,uint8_t OutputValue)
     }
 }
 
-// outputvalue    writeDio_Group   
 void DIO_WriteGroup(uint8_t GroupName,uint8_t OutputValue)
 {
     switch(GroupName)
@@ -104,8 +111,8 @@ void DIO_TogglePin(uint8_t GroupName,uint8_t PinNumber)
         }
     }
 }
-// read  readpin 
-// uint8_t DIO_ReadPin(uint8_t Dio_GroupName,uint8_t PinNumber);
+
+
 void DIO_ReadPin(uint8_t GroupName,uint8_t PinNumber,uint8_t *PinState)
 {
     if (PinState!=Null)
@@ -123,7 +130,6 @@ void DIO_ReadPin(uint8_t GroupName,uint8_t PinNumber,uint8_t *PinState)
         }
     }
 }
-// read  readDio_Group  
 void DIO_ReadGroup(uint8_t GroupName,uint8_t * InputStates)
 {
     if(InputStates!=Null)

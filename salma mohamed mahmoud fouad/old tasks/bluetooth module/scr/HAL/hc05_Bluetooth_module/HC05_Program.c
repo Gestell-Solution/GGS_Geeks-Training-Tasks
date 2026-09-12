@@ -1,3 +1,12 @@
+/**
+ * @file HC05_Program.c
+ * @author salma mohamed mahmoud fouad(salmafouadothman@gmail.com)
+ * @brief driver to initialize uart and receive data
+ * @version 0.1
+ * @date 2026-09-12
+ * @copyright Copyright (c) 2026
+ * 
+ */
 #include"HC05_Interface.h"
 
 void HC05_Init(){
