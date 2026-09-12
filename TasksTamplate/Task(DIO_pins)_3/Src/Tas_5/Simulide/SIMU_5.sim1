@@ -1,0 +1,35 @@
+<circuit version="1.0.0-SR1" rev="1402" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="MCU" CircId="mega32-1" mainComp="false" Show_id="true" Show_Val="false" Pos="340,544" rotation="0" hflip="1" vflip="1" label="mega32-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" varList="DDRB/0x0037/u8,PORTB/0x0038/u8,OCR0/0x005C/u8,TCCR0/0x0053/u8,/---/uint8,/---/uint8,/---/uint8,/---/uint8,/---/uint8,DDRB/0x0037/u8,PORTB/0x0038/u8,TCCR0/0x0053/u8,OCR0/0x005C/u8" eeprom="0," Frequency="8 MHz" Program="../../../../../Tas_5/release/DC2.hex" Auto_Load="true" Rst_enabled="true" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="DcMotor" CircId="DcMotor-2" mainComp="false" Show_id="true" Show_Val="false" Pos="172,476" rotation="90" hflip="1" vflip="1" label="DcMotor-2" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-3" mainComp="false" Show_id="false" Show_Val="false" Pos="292,616" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-3" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+
+<item itemtype="Ground" CircId="Ground-7" mainComp="false" Show_id="false" Show_Val="false" Pos="172,732" rotation="0" hflip="1" vflip="1" label="Ground-7" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-40" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="228,576" rotation="0" hflip="1" vflip="1" label="Resistor-40" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="BJT" CircId="BJT-45" mainComp="false" Show_id="false" Show_Val="false" Pos="164,588" rotation="0" hflip="1" vflip="1" label="BJT-45" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="Diode" CircId="Diode-56" mainComp="false" Show_id="false" Show_Val="false" Pos="260,460" rotation="-90" hflip="1" vflip="1" label="Diode-56" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Model="Diode Default" Threshold="0.634767 V" MaxCurrent="1 A" Resistance="0.05 Ω" BrkDownV="0 V" SatCurrent="171.435 nA" EmCoef="2" />
+
+<item itemtype="Node" CircId="Node-61" mainComp="false" Pos="172,528" />
+
+<item itemtype="Connector" uid="Connector-43" startpinid="mega32-1-PORTB3" endpinid="Resistor-40-rPin" pointList="332,576,244,576" />
+
+<item itemtype="Connector" uid="Connector-44" startpinid="Fixed Voltage-3-outnod" endpinid="mega32-1-RST" pointList="308,616,332,616" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="BJT-45-emiter" endpinid="Ground-7-Gnd" pointList="172,604,172,716" />
+
+<item itemtype="Connector" uid="Connector-55" startpinid="BJT-45-base" endpinid="Resistor-40-lPin" pointList="148,588,132,588,132,680,204,680,204,576,212,576" />
+
+<item itemtype="Connector" uid="Connector-50" startpinid="BJT-45-collector" endpinid="Node-61-0" pointList="172,572,172,528" />
+
+<item itemtype="Connector" uid="Connector-62" startpinid="Node-61-2" endpinid="DcMotor-2-rPin" pointList="172,528,172,516" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="Diode-56-lPin" endpinid="Node-61-1" pointList="260,476,260,528,172,528" />
+
+<item itemtype="Connector" uid="Connector-57" startpinid="Diode-56-rPin" endpinid="DcMotor-2-lPin" pointList="260,444,260,424,172,424,172,436" />
+
+</circuit>

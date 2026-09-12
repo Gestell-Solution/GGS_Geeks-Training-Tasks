@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   5382	     36	    151	   5569	   15c1	C:\Tas_4\release\IR1.elf

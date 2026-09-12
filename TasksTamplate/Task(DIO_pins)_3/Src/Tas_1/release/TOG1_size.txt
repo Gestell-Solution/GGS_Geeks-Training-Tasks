@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   7316	    540	    157	   8013	   1f4d	C:\Tas_1\release\TOG1.elf

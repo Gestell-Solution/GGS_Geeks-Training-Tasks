@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   5922	     36	    156	   6114	   17e2	C:\Tas_2\release\pwm4.elf

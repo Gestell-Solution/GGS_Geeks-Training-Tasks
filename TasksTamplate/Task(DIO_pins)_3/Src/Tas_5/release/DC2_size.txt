@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   6016	     42	    156	   6214	   1846	C:\Tas_5\release\DC2.elf

@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   6036	     42	    156	   6234	   185a	C:\Tas_6\release\TM10.elf
