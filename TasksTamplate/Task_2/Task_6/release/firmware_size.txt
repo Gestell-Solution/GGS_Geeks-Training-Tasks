@@ -1,2 +1,0 @@
-   text	   data	    bss	    dec	    hex	filename
-   1518	      6	      8	   1532	    5fc	D:\Embedded_Tasks\Assignment_2\Task_6\release\firmware.elf
