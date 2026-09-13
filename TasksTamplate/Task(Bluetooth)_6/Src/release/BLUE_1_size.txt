@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   7974	    118	    153	   8245	   2035	C:\LayerdArch_Atmega32\release\BLUE_1.elf
