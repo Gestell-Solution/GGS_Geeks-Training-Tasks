@@ -1,0 +1,49 @@
+# Models 
+ ### water full model</p>
+1. made in 1970 by Winston Royce</p>
+2. it is sequential model meaning it only work when one phase end and the other begin.</p>
+##### states 
+1. requirement: is definition + planning + requirement analysis</p>
+2. design : is HLD,LLD</p>
+3. implementation : code </p>
+4. verification : have testing and deployment </p>
+5. maintains </p>
+
+##### problem of water fall model 
+1. doesn't accept requirement change or edit </p>
+2. no early testing </p>
+3. customer isn't involved in life cycle</p>
+
+##### advantages 
+1. easy to understand </p>
+2. easy to manage </p>
+3. easy sequential ,deliverables for each phase</p>
+
+##### use it when 
+1. you have easy project</p>
+2. short term </p>
+3. good customer</p>
+
+### v model
+##### v model phase
+|1- requirement </p> 2- system analysis</p>3- software design</p>4- module design</p> |6- unit testing</p>7- integration test</p> 8- system test</p>9- acceptance test</p>|
+|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+&emsp;5- coding  
+
+##### advantage
+1. early testing
+2. fast than water fall model 
+##### disadvantage
+1. customer not involved 
+2. dont support require change
+
+##### when to use it
+1. simple project
+2. simple customer
+3. fast delivery for requirements 
+
+
+
+
+
+
