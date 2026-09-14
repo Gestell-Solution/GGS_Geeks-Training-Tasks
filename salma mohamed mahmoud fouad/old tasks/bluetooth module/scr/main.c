@@ -1,10 +1,8 @@
 #include <util/delay.h>
-#include "MCAL/DIO/DIO_Interface.h"
 #include "HAL/LED/LED_Interface.h"
 #include"HAL/hc05_Bluetooth_module/HC05_Interface.h"
 
 
-//uart work in this folder
 
 void main()
 {
