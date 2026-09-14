@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2318	    264	     18	   2600	    a28	C:\Users\Administrator\Desktop\GGS_Geeks-Training-Tasks\bluetooth_module\Src\release\bluetooth.elf
