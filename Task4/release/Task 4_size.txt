@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2120	     50	     17	   2187	    88b	D:\Courses\NTI Embedded\Follow_Up Tasks\EmbeddedTask\Task 4\release\Task 4.elf

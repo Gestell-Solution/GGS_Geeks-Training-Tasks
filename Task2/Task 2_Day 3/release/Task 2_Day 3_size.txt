@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+    820	      0	      0	    820	    334	D:\Courses\NTI Embedded\Follow_Up Tasks\Task 2_Day 3\release\Task 2_Day 3.elf

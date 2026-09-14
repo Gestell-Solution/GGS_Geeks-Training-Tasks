@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+    856	      0	      0	    856	    358	D:\Courses\NTI Embedded\Follow_Up Tasks\Task2_Day4\release\Task2_Day4_WithIR.elf

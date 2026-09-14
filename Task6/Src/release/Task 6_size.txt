@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1466	     42	     17	   1525	    5f5	D:\Courses\NTI Embedded\Follow_Up Tasks\GGS_Geeks-Training-Tasks\Task6\Src\release\Task 6.elf

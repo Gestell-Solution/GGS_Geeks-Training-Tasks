@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1514	      0	      3	   1517	    5ed	D:\Courses\NTI Embedded\Follow_Up Tasks\EmbeddedTask\Task 3\release\TASK3_DIO&EXTI.elf
