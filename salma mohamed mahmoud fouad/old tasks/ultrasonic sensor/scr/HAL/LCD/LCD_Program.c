@@ -77,13 +77,7 @@ void LCD_WriteString(uint8_t *String, uint8_t ModeType)
     }
 }
 
-/**
-    -                 1 AC6 AC5 AC4 AC3 AC2 AC1 AC0  
-    - DigitAddress  : AC7 AC6 AC5 AC4 AC3 AC2 AC1 AC0
-    - Command       : 1    0   0   0   0   0   0   0
-    - 
-    - DigitAddress | 0x80 
- */
+
 void LCD_GotoXY(uint8_t X , uint8_t Y)
 {
     uint8_t DigitAddress = 0 ;

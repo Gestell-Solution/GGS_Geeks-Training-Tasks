@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1904	     30	      1	   1935	    78f	D:\HTI\NTI\gestell repo\GGS_Geeks-Training-Tasks\salma mohamed mahmoud fouad\DHT11 Sensor\scr\release\firmware.elf
