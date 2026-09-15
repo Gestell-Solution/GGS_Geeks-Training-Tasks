@@ -1,4 +1,4 @@
-```c
+
 /*
  * @file         Timer.c
  * @brief        Timer driver implementation.
@@ -76,4 +76,4 @@ ISR(TIMER0_COMP_vect)
 {
     timer_milliseconds++;
 }
-```
+

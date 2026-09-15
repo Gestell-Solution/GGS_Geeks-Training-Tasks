@@ -1,4 +1,4 @@
-```c
+
 /*
  * @file         Bluetooth.c
  * @brief        Bluetooth driver implementation for HC-05 module.
@@ -59,4 +59,4 @@ Bluetooth_StatusType Bluetooth_ReceiveByte(u8 *data, u32 timeout)
 
     return BLUETOOTH_OK;
 }
-```
+

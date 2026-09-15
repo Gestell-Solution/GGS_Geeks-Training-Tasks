@@ -1,4 +1,4 @@
-```c
+
 /*
  * @file         USART.c
  * @brief        USART driver implementation.
@@ -73,4 +73,3 @@ u8 USART_DataAvailable(void)
 {
     return (u8)((UCSRA & (1U << RXC)) != 0U);
 }
-```

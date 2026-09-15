@@ -1,4 +1,3 @@
-```c
 /*
  * @file         Timer.h
  * @brief        Timer driver interface.
@@ -29,4 +28,3 @@ void Timer_Init(void);
 u32 Timer_GetMilliseconds(void);
 
 #endif /* TIMER_H */
-```
