@@ -15,7 +15,6 @@ void main()
     while(1){
         LCD_Go_To_XY(0,1);
         LCD_WriteString("humidity  ",LCD_8bitMode);
-        LCD_Number(-250,LCD_8bitMode);
         data=DHT11_Get_data();
         LCD_Number(data,LCD_8bitMode);
         if(data==70){
