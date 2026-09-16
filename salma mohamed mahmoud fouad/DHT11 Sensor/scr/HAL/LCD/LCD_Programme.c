@@ -1,3 +1,14 @@
+/**
+ * @file LCD_Programme.c
+ * @author salma mohamed mahmoud fouad(salmafouadothman@gmail.com)
+ * @brief this file contain all the command the lcd can do
+ * @details we have here lcd initilaze and writting data like just one charcter between '' we have 
+ *          instruction for clear screen cursosr on off binking on lcd screen off ,we can write string,
+ *          we can go to line 1 or 2 any place on it,and we can display number
+ * @version 0.1
+ * @date 2026-09-16
+ * @copyright Copyright (c) 2026
+ */
 #include"LCD_Interface.h"
 #include<util/delay.h>
 
@@ -78,11 +89,8 @@ void LCD_Number(int32_t num ,uint8_t ModleType){
     int32_t x=0,
     reverse=0;
     if(num<0){
-        LCD_WriteData('-',LCD_8bitMode);
+        LCD_WriteData('-',ModleType);
         num=-num;
-    }
-    else{
-        LCD_WriteString("not number",LCD_8bitMode);
     }
     while(num!=0){
         reverse=reverse*10+(num%10);
@@ -95,7 +103,7 @@ void LCD_Number(int32_t num ,uint8_t ModleType){
      reverse/=10;
    } 
    while(num==0){
-    LCD_WriteData('0',LCD_8bitMode);
+    LCD_WriteData('0',ModleType);
     break;
    }
 }

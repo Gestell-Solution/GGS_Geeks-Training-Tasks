@@ -65,6 +65,12 @@ uint16_t UART_ReceiveBytePolling();
 void UART_SendStringPolling(uint8_t* String); 
 void UART_ReceiveStringPolling(uint8_t* Buffer, uint8_t Terminator);
 void UART_SendBufferPolling(uint8_t * Buffer , uint16_t Length);
+/**
+ * @brief it display numbers
+ * @fn UART_SendNumberPolling
+ * @param number the number you want to display
+ */
+void UART_SendNumberPolling(int32_t number);
 
 void UART_SendByteInterrupt(uint16_t Data);
 

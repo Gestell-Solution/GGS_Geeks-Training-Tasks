@@ -245,6 +245,28 @@ void UART_SendBufferPolling(uint8_t * Buffer , uint16_t Length)
     }
 }
 
+void UART_SendNumberPolling(int32_t number){
+    int32_t x=0,
+    reverse=0;
+    if(number<0){
+        UART_SendBytePolling('-');
+        number=-number;
+    }
+    while(number!=0){
+        reverse=reverse*10+(number%10);
+        number=number/10;
+    }
+    while(reverse!=0){
+     x=reverse%10;
+     x+=48;
+     UART_SendBytePolling(x);
+     reverse/=10;
+   } 
+   while(number==0){
+    UART_SendBytePolling('0');
+    break;
+   }
+}
 
 
 void UART_EnableRX()

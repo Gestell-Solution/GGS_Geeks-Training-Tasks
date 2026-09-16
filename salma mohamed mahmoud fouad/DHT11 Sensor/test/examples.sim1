@@ -1,0 +1,41 @@
+<circuit version="1.1.0-SR2" rev="260312" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Dht22" CircId="Dht22-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-628,232" rotation="0" hflip="1" vflip="1" label="Dht22-1" idLabPos="-28,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" DHT22="DHT11" TempInc="0.5 °C" HumiInc="5 _%" />
+
+<item itemtype="MCU" CircId="mega32-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-536,172" rotation="0" hflip="1" vflip="1" label="mega32-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="8 MHz" Program="../../../HTI/NTI/gestell repo/GGS_Geeks-Training-Tasks/salma mohamed mahmoud fouad/DHT11 Sensor/scr/release/firmware.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Hd44780" CircId="Hd44780-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-468,152" rotation="0" hflip="1" vflip="1" label="Hd44780-3" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2" Cols="16" />
+
+<item itemtype="Led" CircId="Led-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-628,276" rotation="0" hflip="-1" vflip="1" label="Led-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="true" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-640,312" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-5" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="Dht22-1-inPin" endpinid="mega32-2-PORTB0" pointList="-664,228,-676,228,-676,180,-544,180" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="mega32-2-PORTB3" endpinid="Led-4-lPin" pointList="-544,204,-596,204,-596,276,-612,276" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="mega32-2-RST" endpinid="Fixed Voltage-5-outnod" pointList="-544,244,-592,244,-592,312,-624,312" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Hd44780-3-PinRS" endpinid="mega32-2-PORTA0" pointList="-452,160,-452,180,-480,180" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Hd44780-3-PinRW" endpinid="mega32-2-PORTA1" pointList="-444,160,-444,188,-480,188" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="mega32-2-PORTA2" endpinid="Hd44780-3-PinEn" pointList="-480,196,-436,196,-436,160" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Hd44780-3-dataPin0" endpinid="mega32-2-PORTC0" pointList="-428,160,-428,324,-480,324" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Hd44780-3-dataPin1" endpinid="mega32-2-PORTC1" pointList="-420,160,-420,316,-480,316" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="mega32-2-PORTC2" endpinid="Hd44780-3-dataPin2" pointList="-480,308,-412,308,-412,160" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="Hd44780-3-dataPin3" endpinid="mega32-2-PORTC3" pointList="-404,160,-404,300,-480,300" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="mega32-2-PORTC4" endpinid="Hd44780-3-dataPin4" pointList="-480,292,-396,292,-396,160" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Hd44780-3-dataPin5" endpinid="mega32-2-PORTC5" pointList="-388,160,-388,284,-480,284" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="mega32-2-PORTC6" endpinid="Hd44780-3-dataPin6" pointList="-480,276,-380,276,-380,160" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Hd44780-3-dataPin7" endpinid="mega32-2-PORTC7" pointList="-372,160,-372,268,-480,268" />
+
+</circuit>

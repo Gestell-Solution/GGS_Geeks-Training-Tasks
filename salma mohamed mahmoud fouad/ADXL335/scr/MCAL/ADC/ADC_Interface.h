@@ -2,9 +2,9 @@
 #define ADC_INTERFACE_H_
 
 #include<stdint.h>
-#include "../../COMMEN/Bitmath.h"
-#include "../../COMMEN/Definition.h"
-#include "../ATMEGA128_REG.h"
+#include "../../COMMON/Bitmath.h"
+#include "../../COMMON/Definition.h"
+#include"../Atmega32regmap.h"
 #include"ADC_Private.h"
 #include"ADC_Config.h"
 #include"../../MCAL/DIO/DIO_Interface.h"

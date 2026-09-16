@@ -1,4 +1,13 @@
-//we here change here the pins and group of hardware component
+/**
+ * @file LCD_Config.h
+ * @author salma mohamed mahmoud fouad(salmafouadothman@gmail.com)
+ * @brief this file contain pin config it can be changed from here
+ * @version 0.1
+ * @date 2026-09-16
+ * 
+ * @copyright Copyright (c) 2026
+ * 
+ */
 #ifndef _LCD_CONFIG_H
 #define _LCD_CONFIG_H
 

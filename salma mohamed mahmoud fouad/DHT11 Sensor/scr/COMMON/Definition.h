@@ -1,3 +1,14 @@
+/**
+ * @file Definition.h
+ * @author salma mohamed mahmoud fouad(salmafouadothman@gmail.com)
+ * @brief   this file have every single macro that i can use in any file
+ * @details we have input output,high low,disable enable,off on,null nullchar flagup flag down,
+ * clear regester, cpu frequency 
+ * @version 0.1
+ * @date 2026-09-16
+ * @copyright Copyright (c) 2026
+ * 
+ */
 #ifndef _DEFINITION_H
 #define _DEFINITION_H 
 
