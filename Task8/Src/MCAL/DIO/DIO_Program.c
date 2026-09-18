@@ -1,3 +1,16 @@
+/**
+ * @file DIO_Program.c
+ * @brief Implementation of the DIO peripheral driver
+ * @details This file contains the implementation of the DIO Peripheral APIs 
+ * (Initializing,Reading and writing on pins and groups and triggering pins)
+ * @version 0.1
+ * @author Malak Mohammed (malak.mohammed.esmail@gmail.com) 
+ * @date 17-09-2026
+ * @copyright Copyright (c) 2026, Gestell Company
+ */
+
+
+
 #include "DIO_Interface.h"
 
 void DIO_InitPin(uint8_t GroupName, uint8_t PinNumber, uint8_t DirState)
