@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2444	     30	      0	   2474	    9aa	C:\LayerdArch_Atmega32\release\dht_v56.elf
