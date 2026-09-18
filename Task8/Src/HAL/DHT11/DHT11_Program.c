@@ -28,7 +28,8 @@ uint8_t DHT11_ReadData(uint8_t* Humidity, uint8_t* Temperature)
 
     uint8_t i = 0;
     uint8_t j = 0;
-
+    
+    /** @brief a variable to reinitialize with each do..while loop */
     uint16_t timeout = 0;
 
 
@@ -144,14 +145,14 @@ uint8_t DHT11_ReadData(uint8_t* Humidity, uint8_t* Temperature)
             {
                 /* Bit is 1 */
 
-                data[i] |= (uint8_t)(1 << (7- j));
+                SetBit(data[i], (7 - j));
             }
 
             else
             {
                 /* Bit is 0 */
 
-                data[i] &= (uint8_t)~(1 << (7 - j));
+                ClearBit(data[i], (7 - j));
             }
 
 

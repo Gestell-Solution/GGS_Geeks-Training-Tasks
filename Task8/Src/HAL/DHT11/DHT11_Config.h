@@ -21,7 +21,7 @@
 /** @brief  defines the pin of DHT11 connection */
 #define DHT11_Pin   Dio_Pin4
 
-
+/** @brief a timeout value preventing MCU from blocking waiting for a response  */
 #define DHT11_Timeout_Value 1000U 
 
 

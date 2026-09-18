@@ -12,7 +12,10 @@
 #ifndef DHT11_PRIVATE_H 
 #define DHT11_PRIVATE_H
 
+/**  @brief Status code indicating a DHT11 communication failure or timeout   */
 #define DHT11_Reading_Error 0xFF
+
+/** @brief Status code indicating a successful DHT11 reading and checksum verification */
 #define DHT11_Reading_Success 0x00
 
 
