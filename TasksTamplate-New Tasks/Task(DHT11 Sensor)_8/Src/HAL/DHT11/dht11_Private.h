@@ -16,12 +16,11 @@
 /**
 * @brief DHT11 driver status codes.
 */
-
-#define  DHT11_OK      0X00
-#define  DHT11_ERROR   0XFF
-
-
-
+typedef enum
+{
+  DHT11_OK    = 0X00U,
+  DHT11_ERROR = 0XFFU
+} DHT11_Status_t;
 
 
 

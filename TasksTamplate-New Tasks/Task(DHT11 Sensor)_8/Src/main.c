@@ -24,7 +24,7 @@ int main(void)
 {
 uint8_t Temperature=0;
 uint8_t Humidity=0;
-uint8_t Status=0;
+DHT11_Status_t Status=0;
 
 /**
 * Initialize LEDs
