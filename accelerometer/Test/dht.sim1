@@ -1,0 +1,45 @@
+<circuit version="1.1.0-SR2" rev="260312" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Dht22" CircId="Dht22-1" mainComp="false" Show_id="false" Show_Val="false" Pos="136,44" rotation="0" hflip="1" vflip="1" label="Dht22-1" idLabPos="-28,-32" labelrot="0" valLabPos="-16,20" valLabRot="0" DHT22="DHT11" TempInc="0.5 °C" HumiInc="5 _%" />
+
+<item itemtype="MCU" CircId="mega32-2" mainComp="false" Show_id="true" Show_Val="false" Pos="-60,32" rotation="0" hflip="1" vflip="1" label="mega32-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="8 MHz" Program="../Src/release/DHT.hex" Auto_Load="true" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-120,104" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-3" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="TextComponent" CircId="TextComponent-4" mainComp="false" Show_id="false" Show_Val="false" Pos="96,-72" rotation="0" hflip="1" vflip="1" label="TextComponent-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="pin 1 : VCC&#xa;pin 2 : data&#xa;pin 3 : null&#xa;pin 4 : gnd" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-5" mainComp="false" Show_id="false" Show_Val="false" Pos="36,-52" rotation="90" hflip="1" vflip="1" label="Fixed Voltage-5" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Resistor" CircId="Resistor-6" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="36,-12" rotation="90" hflip="1" vflip="1" label="Resistor-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="5000 Ω" />
+
+<item itemtype="Hd44780" CircId="Hd44780-8" mainComp="false" Show_id="true" Show_Val="false" Pos="208,52" rotation="0" hflip="1" vflip="1" label="Hd44780-8" idLabPos="70,-82" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="2" Cols="16" />
+
+<item itemtype="Ground" CircId="Ground-9" mainComp="false" Show_id="false" Show_Val="false" Pos="228,204" rotation="0" hflip="1" vflip="1" label="Ground-9" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-7" mainComp="false" Pos="36,40" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Fixed Voltage-3-outnod" endpinid="mega32-2-RST" pointList="-104,104,-68,104" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Fixed Voltage-5-outnod" endpinid="Resistor-6-lPin" pointList="36,-36,36,-28" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Resistor-6-rPin" endpinid="Node-7-1" pointList="36,4,36,40" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Dht22-1-inPin" endpinid="Node-7-0" pointList="100,40,36,40" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Node-7-2" endpinid="mega32-2-PORTA0" pointList="36,40,-4,40" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="mega32-2-PORTC2" endpinid="Hd44780-8-PinRS" pointList="-4,168,224,168,224,60" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="mega32-2-PORTC3" endpinid="Hd44780-8-PinEn" pointList="-4,160,240,160,240,60" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="mega32-2-PORTC4" endpinid="Hd44780-8-dataPin4" pointList="-4,152,280,152,280,60" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="mega32-2-PORTC5" endpinid="Hd44780-8-dataPin5" pointList="-4,144,288,144,288,60" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="mega32-2-PORTC6" endpinid="Hd44780-8-dataPin6" pointList="-4,136,296,136,296,60" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="mega32-2-PORTC7" endpinid="Hd44780-8-dataPin7" pointList="-4,128,304,128,304,60" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Hd44780-8-PinRW" endpinid="Ground-9-Gnd" pointList="232,60,232,188,228,188" />
+
+</circuit>
