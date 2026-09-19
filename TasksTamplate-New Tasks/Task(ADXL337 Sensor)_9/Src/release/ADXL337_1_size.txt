@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   3560	     14	      0	   3574	    df6	C:\LayerdArch_Atmega32\release\ADXL337_1.elf
