@@ -1,3 +1,11 @@
+/**
+ * @file ADC_Private.h
+ * @author salma mohamed mahmoud fouad(salmafouadothman@gmail.com)
+ * @brief to use some of them in the functions
+ * @version 0.1
+ * @date 2026-09-21
+ * @copyright Copyright (c) 2026 
+ */
 #ifndef ADC_PRIVATE_H_
 #define ADC_PRIVATE_H_
 
@@ -54,10 +62,34 @@
 
 typedef struct 
 {
+    /**
+     * @brief to choose from voltage select 
+     * @var Reference_Selection
+     */
     uint8_t Reference_Selection;
+     /**
+     * @brief left or right adjust 
+     * @var Adjust
+     */
+
     uint8_t Adjust;
+     /**
+     * @brief enable it or disable 
+     * @var free_running_mode_enable
+     */
+
     uint8_t free_running_mode_enable;
+     /**
+     * @brief enable or disable 
+     * @var interrupt_enable
+     */
+
     uint8_t interrupt_enable;
+     /**
+     * @brief prescaler 
+     * @var prescaler_selection
+     */
+
     uint8_t prescaler_selection;
 }ADC_Config_t;
 

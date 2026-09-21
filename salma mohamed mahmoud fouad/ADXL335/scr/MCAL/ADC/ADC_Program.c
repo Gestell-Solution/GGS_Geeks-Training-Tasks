@@ -1,3 +1,12 @@
+/**
+ * @file ADC_Program.c
+ * @author salma mohamed mahmoud fouad(salmafouadothman@gmail.com)
+ * @brief adc driver for making it work 
+ * @details it let config the driver it read the data and enable interrupt
+ * @version 0.1
+ * @date 2026-09-21
+ * @copyright Copyright (c) 2026
+ */
 #include"ADC_Interface.h"
 
 void ADC_Init(ADC_Config_t config){

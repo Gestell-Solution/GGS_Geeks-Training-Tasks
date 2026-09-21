@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-   3242	     52	     17	   3311	    cef	D:\HTI\NTI\gestell repo\GGS_Geeks-Training-Tasks\salma mohamed mahmoud fouad\ADXL335\scr\release\firmware.elf
+   4518	     30	     17	   4565	   11d5	D:\HTI\NTI\gestell repo\GGS_Geeks-Training-Tasks\salma mohamed mahmoud fouad\ADXL335\scr\release\firmware.elf

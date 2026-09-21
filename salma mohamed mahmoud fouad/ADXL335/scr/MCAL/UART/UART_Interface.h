@@ -10,7 +10,7 @@
  *            another function to receive them we also have interrupt 
  *            that we can enable or disable we can also enable tx or rx only or enable 
  *            both of them .
- * @version   0.1
+ * @version   0.2
  * @date      2026-09-12
  * @copyright Copyright (c) 2026
  * 
@@ -71,6 +71,7 @@ void UART_SendBufferPolling(uint8_t * Buffer , uint16_t Length);
  * @param number the number you want to display
  */
 void UART_SendNumberPolling(int32_t number);
+
 
 void UART_SendByteInterrupt(uint16_t Data);
 

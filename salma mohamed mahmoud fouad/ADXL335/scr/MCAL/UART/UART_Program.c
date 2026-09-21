@@ -9,7 +9,7 @@
  *            another function to receive them we also have interrupt 
  *            that we can enable or disable we can also enable tx or rx only or enable 
  *            both of them .
- * @version   0.1
+ * @version   0.2
  * @date      2026-09-12
  * @copyright Copyright (c) 2026
  */
@@ -255,18 +255,18 @@ void UART_SendNumberPolling(int32_t number){
     while(number!=0){
         reverse=reverse*10+(number%10);
         number=number/10;
+        if(reverse==0){
+      UART_SendBytePolling('0');
+     }
     }
     while(reverse!=0){
      x=reverse%10;
      x+=48;
      UART_SendBytePolling(x);
      reverse/=10;
-   } 
-   while(number==0){
-    UART_SendBytePolling('0');
-    break;
    }
 }
+
 
 
 void UART_EnableRX()
