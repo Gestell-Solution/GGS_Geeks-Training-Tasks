@@ -85,6 +85,13 @@ void ADC_source_selection(Adc_interput_source_t source)
     SFIOR = (SFIOR &~ Adc_mask_interput_sources) | source ;
 }
 
+u16 ADC_read_specific_channel(Adc_channel_t channel )
+{
+    ADC_channel(channel);
+    
+    return ADC_read_result();
+}
+
 u16 ADC_read_result()
 {
     u16 data = 0;

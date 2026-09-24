@@ -1,8 +1,8 @@
 {
   "projectName": "Src",
-  "projectPath": "C:\\Users\\Administrator\\Desktop\\GGS_Geeks-Training-Tasks\\dht11_module\\Src",
-  "outputPath": "C:\\Users\\Administrator\\Desktop\\GGS_Geeks-Training-Tasks\\dht11_module\\Src",
-  "outputName": "DHT",
+  "projectPath": "C:\\Users\\Administrator\\Desktop\\GGS_Geeks-Training-Tasks\\accelerometer\\Src",
+  "outputPath": "C:\\Users\\Administrator\\Desktop\\GGS_Geeks-Training-Tasks\\accelerometer\\Src",
+  "outputName": "ADXL",
   "target": "AVR",
   "mcu": "atmega32",
   "language": "C",
@@ -25,6 +25,6 @@
   "port": "COM3 - Standard Serial over Bluetooth link (COM3)",
   "baudRate": "115200",
   "timeout": "5000",
-  "firmwareFile": "C:\\Users\\Administrator\\Desktop\\GGS_Geeks-Training-Tasks\\dht11_module\\Src/DHT.hex",
+  "firmwareFile": "C:\\Users\\Administrator\\Desktop\\GGS_Geeks-Training-Tasks\\accelerometer\\Src/ADXL.hex",
   "programmer": "usbasp"
 }

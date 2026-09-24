@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   4740	     62	     20	   4822	   12d6	C:\Users\Administrator\Desktop\GGS_Geeks-Training-Tasks\accelerometer\Src\release\ADXL.elf

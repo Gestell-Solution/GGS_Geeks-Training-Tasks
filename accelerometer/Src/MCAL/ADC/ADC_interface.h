@@ -28,6 +28,8 @@ void ADC_disable();
 
 u16 ADC_read_result();
 
+u16 ADC_read_specific_channel();
+
 // extern Adc_config_t config_defualt_ADC;
 
 /*  functions i dont need only for adc not whole app
