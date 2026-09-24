@@ -1,5 +1,17 @@
+/**
+ * @file ADC_Program.c
+ * @brief Implementation of ADC Peripheral driver
+ * @details This file contains the implementation of ADC peripheral APIs (Initialization,Reading&starting conversion)
+ * @version 0.1
+ * @author Malak Mohammed (malak.mohammed.esmail@gmail.com) 
+ * @date 21-09-2026
+ * @copyright Copyright (c) 2026, Gestell Company
+ */
+
+
 #include "ADC_Interface.h"
 
+/** @brief Stores the callback function to be called when an ADC conversion is completed. */
 static void (*ADC_CallBackPtr)(uint16_t) = 0;
 
 void ADC_Init(Adc_Config_t Configuration)
@@ -60,6 +72,7 @@ SetBit(ADCSRA_Reg,Adc_ADEN);
 
 uint16_t ADC_ReadChannelPolling(uint8_t Channel)
 {
+    /** @brief a timeout counter to be comparing with the set ADC Timeout value */
     uint32_t Timeout_Counter = 0;
 
 ADMUX_Reg=(ADMUX_Reg &~Adc_ChannelMask)|Channel ;

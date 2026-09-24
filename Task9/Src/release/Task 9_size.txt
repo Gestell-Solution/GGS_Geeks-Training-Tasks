@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   3970	      6	      2	   3978	    f8a	D:\Courses\NTI Embedded\Follow_Up Tasks\GGS_Geeks-Training-Tasks\Task9\Src\release\Task 9.elf
