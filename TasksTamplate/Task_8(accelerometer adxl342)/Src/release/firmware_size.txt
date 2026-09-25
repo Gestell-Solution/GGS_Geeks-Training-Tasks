@@ -1,2 +1,0 @@
-   text	   data	    bss	    dec	    hex	filename
-   2988	     36	      3	   3027	    bd3	D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl342)\Src\release\firmware.elf
