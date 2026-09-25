@@ -10,10 +10,10 @@
 /**
  * @brief number from the data sheet to help initazeling they can be changed
  */
-#define VREF    5.0f
-#define ZERO_G  1.5f   
-#define SENS    0.300f    
-#define divide  1024.0f
+#define VREF    5.0F
+#define ZERO_G  1.5F   
+#define SENS    0.300F    
+#define divide  1024.0F
 
 
 void ADXL335_Init(){
