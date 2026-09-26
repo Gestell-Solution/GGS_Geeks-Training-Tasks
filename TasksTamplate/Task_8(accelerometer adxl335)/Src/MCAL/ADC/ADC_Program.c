@@ -133,9 +133,14 @@ void ADC_SetCallBack(void (*Copy_pvCallBack)(uint16_t))
     }
 }
 
-void __vector_14(void) __attribute__((signal));
+/*
+ * ADC Conversion Complete is vector 16 on the ATmega32 (vector 14 is
+ * USART_UDRE, already used by Uart_Program.c - using __vector_14 here as
+ * well caused a "multiple definition of `__vector_14`" link error).
+ */
+void __vector_16(void) __attribute__((signal));
 
-void __vector_14(void)
+void __vector_16(void)
 {
     uint16_t Local_AdcData;
     Local_AdcData = ADCData_Reg;

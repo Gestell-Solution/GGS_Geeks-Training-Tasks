@@ -3,9 +3,9 @@
  * @brief Common project definitions and constants.
  * @details Contains the application-wide definitions shared by all layers
  *          (logic levels, pin directions, null values and CPU clock).
- * @version 1.1.0
+ * @version 1.2.0
  * @author Yousef Mohamed
- * @date 2026-09-24
+ * @date 2026-09-26
  * @copyright Copyright (c) 2026, Gestell Company. All rights reserved.
  */
 
@@ -36,5 +36,13 @@
 #define NullChar        0U          /**< String terminator value ('\\0') as unsigned 8-bit data. */
 
 #define FCPU            8000000UL   /**< CPU clock frequency in Hz. */
+#ifndef F_CPU
+/** AVR-libc clock macro (required, with this exact name, by <util/delay.h>
+ *  and by the UART baud-rate calculation in Uart_Program.c). Must be
+ *  defined before <util/delay.h> is included anywhere. Normally supplied
+ *  by the build (-DF_CPU=...); this is only a fallback for builds that
+ *  don't pass it, kept equal to FCPU above. */
+#define F_CPU           FCPU
+#endif
 
 #endif 

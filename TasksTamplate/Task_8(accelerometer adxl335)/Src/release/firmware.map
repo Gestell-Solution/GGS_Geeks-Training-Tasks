@@ -2,20 +2,22 @@ Archive member included to satisfy reference by file (symbol)
 
 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
                               D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\HAL\ADXL335\ADXL335_Program.c.o (__umulhisi3)
+C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                              D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\UART\Uart_Program.c.o (__udivmodsi4)
 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
                               D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\HAL\ADXL335\ADXL335_Program.c.o (__divmodsi4)
 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
                               C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o) (__negsi2)
 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
                               C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o (exit)
+C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+                              D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\UART\Uart_Program.c.o (__tablejump2__)
 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
                               D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\main.c.o (__do_copy_data)
 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
                               D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\HAL\LCD\LCD_Program.c.o (__do_clear_bss)
 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
                               D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\HAL\ADXL335\ADXL335_Program.c.o (__muluhisi3)
-C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
-                              C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o) (__udivmodsi4)
 
 There are no discarded input sections
 
@@ -39,6 +41,7 @@ LOAD D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src
 LOAD D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\main.c.o
 LOAD D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\ADC\ADC_Program.c.o
 LOAD D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\DIO\DIO_Program.c.o
+LOAD D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\UART\Uart_Program.c.o
 START GROUP
 LOAD C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a
 LOAD C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5\libm.a
@@ -145,7 +148,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xada
+.text           0x00000000     0x1048
  *(.vectors)
  .vectors       0x00000000       0x54 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
                 0x00000000                __vector_default
@@ -208,7 +211,6 @@ END GROUP
                 0x0000008e                __vector_6
                 0x0000008e                __vector_3
                 0x0000008e                __vector_11
-                0x0000008e                __vector_13
                 0x0000008e                __vector_17
                 0x0000008e                __vector_19
                 0x0000008e                __vector_7
@@ -216,10 +218,8 @@ END GROUP
                 0x0000008e                __vector_4
                 0x0000008e                __vector_9
                 0x0000008e                __vector_2
-                0x0000008e                __vector_15
                 0x0000008e                __vector_8
                 0x0000008e                __vector_10
-                0x0000008e                __vector_16
                 0x0000008e                __vector_18
                 0x0000008e                __vector_20
  .text          0x00000092      0x246 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\HAL\ADXL335\ADXL335_Program.c.o
@@ -240,7 +240,7 @@ END GROUP
                 0x00000652                ADC_ReadChannelPolling
                 0x0000069c                ADC_StartConversionInterrupt
                 0x000006aa                ADC_SetCallBack
-                0x000006b8                __vector_14
+                0x000006b8                __vector_16
  .text          0x0000070e      0x1e8 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\DIO\DIO_Program.c.o
                 0x0000070e                DIO_InitPin
                 0x0000078a                DIO_InitGroup
@@ -249,132 +249,174 @@ END GROUP
                 0x00000846                DIO_TogglePin
                 0x00000884                DIO_ReadPin
                 0x000008c0                DIO_ReadGroup
- .text          0x000008f6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
- .text          0x000008f6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
- .text          0x000008f6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
- .text          0x000008f6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
- .text          0x000008f6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
- .text          0x000008f6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
- .text          0x000008f6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
- .text          0x000008f6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x000008f6                        . = ALIGN (0x2)
+ .text          0x000008f6      0x554 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\UART\Uart_Program.c.o
+                0x000008f6                UART_Init
+                0x00000a86                UART_SendBytePolling
+                0x00000aa4                UART_ReceiveBytePolling
+                0x00000ac0                UART_SendStringPolling
+                0x00000aee                UART_ReceiveStringPolling
+                0x00000b40                UART_SendBufferPolling
+                0x00000b6a                UART_ReceiveBytePolling_Timeout
+                0x00000bd4                UART_ReceiveStringPolling_Timeout
+                0x00000c7a                UART_ReceiveByteInterrupt
+                0x00000cc0                UART_EnableRX
+                0x00000cc4                UART_EnableTX
+                0x00000cc8                UART_DisableRX
+                0x00000ccc                UART_DisableTX
+                0x00000cd0                UART_SendByteInterrupt
+                0x00000cd4                UART_EnableRXInterrupt
+                0x00000cd8                UART_EnableTXInterrupt
+                0x00000cdc                UART_EnableREInterrupt
+                0x00000ce0                UART_DisableRXInterrupt
+                0x00000ce4                UART_DisableTXInterrupt
+                0x00000ce8                UART_DisableREInterrupt
+                0x00000cec                UART_SetRXCallback
+                0x00000cfa                UART_SetTXCallback
+                0x00000d08                UART_SetRECallback
+                0x00000d16                __vector_13
+                0x00000da6                __vector_15
+                0x00000df8                __vector_14
+ .text          0x00000e4a        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text          0x00000e4a        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000e4a        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00000e4a        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+ .text          0x00000e4a        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000e4a        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .text          0x00000e4a        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000e4a        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000e4a        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00000e4a                        . = ALIGN (0x2)
  *(.text.*)
- .text.startup  0x000008f6      0x12a D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\main.c.o
-                0x000008f6                main
+ .text.startup  0x00000e4a      0x12a D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\main.c.o
+                0x00000e4a                main
  .text.libgcc.mul
-                0x00000a20       0x1e C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
-                0x00000a20                __umulhisi3
+                0x00000f74       0x1e C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00000f74                __umulhisi3
  .text.libgcc.div
-                0x00000a3e        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
- .text.libgcc   0x00000a3e        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00000f92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000f92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.prologue
-                0x00000a3e        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00000f92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.builtins
-                0x00000a3e        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00000f92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.fmul
-                0x00000a3e        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00000f92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.fixed
-                0x00000a3e        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00000f92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.mul
-                0x00000a3e        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000f92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.div
-                0x00000a3e       0x2e C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
-                0x00000a3e                __divmodsi4
- .text.libgcc   0x00000a6c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000f92       0x44 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00000f92                __udivmodsi4
+ .text.libgcc   0x00000fd6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.prologue
-                0x00000a6c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000fd6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.builtins
-                0x00000a6c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000fd6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fmul
-                0x00000a6c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000fd6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fixed
-                0x00000a6c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000fd6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.mul
-                0x00000a6c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+                0x00000fd6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.div
-                0x00000a6c       0x10 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
-                0x00000a6c                __negsi2
- .text.libgcc   0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+                0x00000fd6       0x2e C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+                0x00000fd6                __divmodsi4
+ .text.libgcc   0x00001004        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.prologue
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+                0x00001004        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.builtins
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+                0x00001004        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.fmul
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+                0x00001004        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.fixed
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+                0x00001004        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.mul
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x00001004        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.div
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x00001004       0x10 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+                0x00001004                __negsi2
+ .text.libgcc   0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.prologue
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.builtins
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.fmul
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.fixed
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.mul
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.div
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.div
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
- .text.libgcc   0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x00001014        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .text.libgcc   0x00001014        0xc C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+                0x00001014                __tablejump2__
  .text.libgcc.prologue
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.builtins
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.fmul
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.fixed
-                0x00000a7c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
  .text.libgcc.mul
-                0x00000a7c       0x16 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
-                0x00000a7c                __muluhisi3
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.div
-                0x00000a92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
- .text.libgcc   0x00000a92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.prologue
-                0x00000a92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.builtins
-                0x00000a92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.fmul
-                0x00000a92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.fixed
-                0x00000a92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.mul
-                0x00000a92        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.div
-                0x00000a92       0x44 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x00000a92                __udivmodsi4
- .text.libgcc   0x00000ad6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.prologue
-                0x00000ad6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.builtins
-                0x00000ad6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fmul
-                0x00000ad6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
-                0x00000ad6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x00000ad6                        . = ALIGN (0x2)
+                0x00001020        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00001020       0x16 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001020                __muluhisi3
+ .text.libgcc.div
+                0x00001036        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00001036        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00001036        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00001036        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00001036        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00001036        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
+                0x00001036                        . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000ad6        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
-                0x00000ad6                _exit
-                0x00000ad6                exit
+ .fini9         0x00001036        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+                0x00001036                _exit
+                0x00001036                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -393,17 +435,19 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000ad6        0x4 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x00001036        0x4 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
  *(.hightext)
  *(.hightext*)
  *(.progmemx.*)
-                0x00000ada                        . = ALIGN (0x2)
+                0x0000103a                        . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
-                0x00000ada                        _etext = .
+ .jumptables.gcc.UART_Init
+                0x0000103a        0xe D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\UART\Uart_Program.c.o
+                0x00001048                        _etext = .
 
-.data           0x00800060       0x2c load address 0x00000ada
+.data           0x00800060       0x2c load address 0x00001048
                 0x00800060                        PROVIDE (__data_start = .)
  *(.data)
  .data          0x00800060        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
@@ -412,14 +456,16 @@ END GROUP
  .data          0x00800060        0x0 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\main.c.o
  .data          0x00800060        0x0 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\ADC\ADC_Program.c.o
  .data          0x00800060        0x0 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\DIO\DIO_Program.c.o
+ .data          0x00800060        0x0 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\UART\Uart_Program.c.o
  .data          0x00800060        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .data          0x00800060        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
  .data          0x00800060        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
  .data          0x00800060        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
  .data          0x00800060        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
  .data          0x00800060        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
  .data          0x00800060        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
  .data          0x00800060        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
- .data          0x00800060        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
  *(.data*)
  *(.gnu.linkonce.d*)
  *(.rodata)
@@ -431,7 +477,7 @@ END GROUP
                 0x0080008c                        _edata = .
                 0x0080008c                        PROVIDE (__data_end = .)
 
-.bss            0x0080008c        0x3
+.bss            0x0080008c       0x96
                 0x0080008c                        PROVIDE (__bss_start = .)
  *(.bss)
  .bss           0x0080008c        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/../../../../avr/lib/avr5/crtatmega32.o
@@ -440,25 +486,27 @@ END GROUP
  .bss           0x0080008d        0x0 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\main.c.o
  .bss           0x0080008d        0x2 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\ADC\ADC_Program.c.o
  .bss           0x0080008f        0x0 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\DIO\DIO_Program.c.o
- .bss           0x0080008f        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
- .bss           0x0080008f        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
- .bss           0x0080008f        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
- .bss           0x0080008f        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
- .bss           0x0080008f        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
- .bss           0x0080008f        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
- .bss           0x0080008f        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
- .bss           0x0080008f        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x0080008f       0x93 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\UART\Uart_Program.c.o
+ .bss           0x00800122        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x00800122        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800122        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00800122        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_negsi2.o)
+ .bss           0x00800122        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00800122        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_tablejump2.o)
+ .bss           0x00800122        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800122        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800122        0x0 C:/avr-toolchain/bin/../lib/gcc/avr/15.1.0/avr5\libgcc.a(_muluhisi3.o)
  *(.bss*)
  *(COMMON)
-                0x0080008f                        PROVIDE (__bss_end = .)
-                0x00000ada                        __data_load_start = LOADADDR (.data)
-                0x00000b06                        __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00800122                        PROVIDE (__bss_end = .)
+                0x00001048                        __data_load_start = LOADADDR (.data)
+                0x00001074                        __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0080008f        0x0
+.noinit         0x00800122        0x0
                 [!provide]                        PROVIDE (__noinit_start = .)
  *(.noinit .noinit.* .gnu.linkonce.n.*)
                 [!provide]                        PROVIDE (__noinit_end = .)
-                0x0080008f                        _end = .
+                0x00800122                        _end = .
                 [!provide]                        PROVIDE (__heap_start = .)
                 0x00000000                        __flmap_init_label = DEFINED (__flmap_noinit_start)?__flmap_noinit_start:0x0
                 0x00000000                        __flmap = DEFINED (__flmap)?__flmap:0x0
@@ -505,6 +553,7 @@ END GROUP
  .comment       0x0000002f       0x30 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\main.c.o
  .comment       0x0000002f       0x30 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\ADC\ADC_Program.c.o
  .comment       0x0000002f       0x30 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\DIO\DIO_Program.c.o
+ .comment       0x0000002f       0x30 D:\GGS_Geeks-Training-Tasks\TasksTamplate\Task_8(accelerometer adxl335)\Src\release\MCAL\UART\Uart_Program.c.o
 
 .note.gnu.avr.deviceinfo
                 0x00000000       0x3c
